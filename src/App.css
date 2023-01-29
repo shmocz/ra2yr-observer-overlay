@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background-color: #00ff00;
+}
+
+.box {
+  float: left;
+  border: 1px solid #999;
+  width: 100%;
+}
+
+.App {
+  font-size:small;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.unit-list {
+  display: flex;
+  height: 70px;
+}
+
+.unit-list > div {
+  text-align: center;
+}
+
+form#settings {
+  width: 500px;
+}
+
+form#settings > * {
+  width: 100%;
+}
+
+div.slider {
+  width: 30%;
+}
+
+.row {
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+}
+
+.player-info {
+  width: 75px;  
+  background-color: #f1f1f1;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  flex-direction: column;
+}
+
+.player-info > * {
+  width: inherit;
+}
+
+.unit-entry {
+  font-size: 10px;
+  width: 60px;
+  background-color: #f1f1f1;
+}
+
+.wrapper-1 {
+  width: 60px;
+}
+
+.wrapper-2 {
+  width: 30px;
+}
+
+.wrapper-3 {
+  width: 30px;
+}
+
+.wrapper-4 {
+  width: 30px;
+}
+
+.unit-entry .wrapper {
+  width: 100%;
+}
+
+.unit-entry > #unit-name {
+  height: 70%;
+}
+
+span#unit-count {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.unit-entry > #build-progress {
+  height: 25%;
+}
+
+.unit-count {
+  background-color
+  : #6a1b9a;
+}
+
+.progress {
+  font-size: 10px;
+  color: white;
+}
+
+.build-queue {
+  display: flex;
+  width: 100%;
+}
+
+#build-progress {
+  width: 100%;
+}
+
+.unit-cameo {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+.unit-cameo:after {
+  padding-top: 80%;
+  display: block;
+  content: '';
+}
+
+img.cameo {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+  height: inherit;
+  width: inherit;
+}
+
+.player-name {
+  font-weight: bold;
+}
+
+.unit-entries {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}

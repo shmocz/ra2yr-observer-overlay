@@ -1,0 +1,3 @@
+[submodule "ra2yrproto"]
+	path = ra2yrproto
+	url = git@github.com:shmocz/ra2yrproto.git
