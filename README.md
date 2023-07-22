@@ -7,6 +7,7 @@ Simple browser overlay for Red Alert 2: Yuri's Revenge, using [ra2yrcpp](https:/
 ```bash
 $ git clone --recurse-submodules https://github.com:shmocz/ra2yr-observer-overlay.git
 $ cd ra2yr-observer-overlay
+$ npm install
 # Generate protobuf definitions
 $ npm run prebuild
 ```
