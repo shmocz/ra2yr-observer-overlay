@@ -1,5 +1,7 @@
 # ra2yr-observer-overlay
 
+**NOTE: As of 2023-06-12 this project is unmaintained.**
+
 Simple browser overlay for Red Alert 2: Yuri's Revenge, using [ra2yrcpp](https://github.com/CnCNet/ra2yrcpp) and [ra2yrproto](https://github.com/shmocz/ra2yrproto). Displays each players' unit counts and build queues in real time.
 
 ## Setup
